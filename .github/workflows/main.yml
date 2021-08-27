@@ -29,8 +29,8 @@ jobs:
       - name: Pull bchew/dynamodump:master docker image
         run: docker pull bchew/dynamodump:master
 
-      - name: Pull bchew/dynamodump:v1.3.2 docker image
-        run: docker pull bchew/dynamodump:v1.3.2
+      - name: Pull bchew/dynamodump:v1.3.3 docker image
+        run: docker pull bchew/dynamodump:v1.3.3
 
       - name: Pull bchew/jekyll-build:latest docker image
         run: docker pull bchew/jekyll-build:latest
