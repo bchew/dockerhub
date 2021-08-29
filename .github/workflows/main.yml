@@ -30,7 +30,7 @@ jobs:
         run: docker pull bchew/dynamodump:master
 
       - name: Pull bchew/dynamodump:version docker image
-        run: docker pull bchew/dynamodump:v1.3.4
+        run: docker pull bchew/dynamodump:v1.4.0
 
       - name: Pull bchew/jekyll-build:latest docker image
         run: docker pull bchew/jekyll-build:latest
